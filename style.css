@@ -190,7 +190,10 @@ body {
   /* ================ Timeline Media Queries ================ */
   
   @media screen and (max-width: 660px) {
-  
+  body{
+    
+    background-image: url(./image/download.png);
+  }
   .timeline {
        width: 100%;
       padding: 4em 0 1em 0;
