@@ -1,17 +1,18 @@
 body {	
     margin: 0;
     padding: 0;
-    background: rgb(230,230,230);
+    background: rgb(223 144 230);
     
-    color: rgb(50,50,50);
+    color: rgb(63 53 53);
     font-family: 'Open Sans', sans-serif;
     font-size: 112.5%;
     line-height: 1.6em;
   }
   img{
     border-radius: 10px;
-    border: 4px solid red;
+    border: 4px solid #fff;
   }
+  
   /* ================ The Timeline ================ */
   
   .timeline {
@@ -38,7 +39,7 @@ body {
     background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
     background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
     background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
-    background: linear-gradient(to bottom, rgb(84 132 255) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: linear-gradient(to bottom, rgb(84 132 255) 0%, rgb(255, 255, 255) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
     
     z-index: 5;
   }
@@ -79,11 +80,12 @@ body {
     position: relative;
     display: inline;
     /* background: ; */
-    background: rgb(253, 22, 22);
+    background: #fff ;
     padding: 6px 10px;
     border-radius: 5px;
     font-weight: 600;
     text-align: left;
+    border: 1px solid rgb(255, 0, 0);
   }
   
   .direction-l .flag {
@@ -150,9 +152,10 @@ body {
     display: inline;
     
     line-height: 1em;
-    font-size: 0.66666em;
-    color: rgb(250,80,80);
+    font-size: 16px;
+    color: rgb(255 0 0);
     vertical-align: middle;
+    /* border: 1px solid rgb(255, 0, 0); */
   }
   
   .direction-l .time-wrapper {
@@ -180,6 +183,9 @@ body {
   .direction-r .desc {
     margin: 1em 0 0 0.75em;
   }
+
+
+
   
   /* ================ Timeline Media Queries ================ */
   
@@ -207,7 +213,7 @@ body {
   }
   
   .flag {
-      background: red;
+      background: #fff;
       z-index: 15;
   }
   
